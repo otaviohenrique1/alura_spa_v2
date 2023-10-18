@@ -1,4 +1,48 @@
-@import url(abstract/_base.scss);
-@import url(components/_navbar.scss);
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #495371;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #74959A;
+}
+
+.banner {
+  background-size: cover;
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  /* Altera a opacidade */
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F1E0AC;
+  opacity: 0.9;
+  /* Altera a opacidade */
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #495371;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #74959A;
+}
 
 /*# sourceMappingURL=style.css.map */

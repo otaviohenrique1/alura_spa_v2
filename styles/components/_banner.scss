@@ -1,6 +1,33 @@
-.banner {
-  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
-  min-width: 35px0;
-}
+@import "../abstract/variaveis";
 
-.inner-banner {}
+.banner {
+  background-size: cover;
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  // background-position: center;
+  // background-image: url(../../imagens/banner.jpeg);
+  // background-repeat: no-repeat;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  /* Altera a opacidade */
+
+  .inner-banner {
+    padding: 3rem;
+    background-color: $cor-terciaria;
+    opacity: 0.9;
+    /* Altera a opacidade */
+    border-radius: 45px;
+    
+    h1 {
+      font-size: $tamanho-do-texto;
+      color: $cor-primaria;
+    }
+
+    h2 {
+      font-size: calc($tamanho-do-texto/2);
+      color: $cor-secundaria;
+    }
+  }
+}
