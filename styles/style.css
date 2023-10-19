@@ -103,5 +103,63 @@ nav ul li a:hover {
   margin: 2rem;
   font-size: 1.7647058824rem;
 }
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  /* border: none; => Remove a borda*/
+  width: 540px;
+  outline: none;
+  /* outline: none; => Remove a borda quando estiver selecionado */
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #495371;
+  outline: none;
+  /* outline: none; => Remove a borda quando estiver selecionado */
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  /* outline: none; => Remove a borda quando estiver selecionado */
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #495371;
+  color: #74959A;
+  letter-spacing: 1px;
+  /* letter-spacing: 1px; => Espacamento entre as letras */
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px #495371;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  background-color: #74959A;
+  color: #495371;
+  border-color: #F1E0AC;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #495371;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #495371, #74959A, #F1E0AC, #495371);
+}
+footer i {
+  color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
